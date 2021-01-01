@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import { getOverview } from "../graphql/QueryOverview";
 import { MDBDataTable } from "mdbreact";

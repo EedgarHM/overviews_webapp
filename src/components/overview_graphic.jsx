@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { getOverview } from "../graphql/QueryOverview";
-import React from "react";
 import { useQuery } from "react-apollo";
 import { Bar } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
@@ -26,7 +25,7 @@ function Grafica() {
     const { getOverview } = data;
     const datos = getOverview.data;
     const { graph } = getOverview;
-    const { description, labelY, dataBar, labelX, footGraph } = graph;
+    const { description, labelY, labelX, footGraph } = graph;
 
     const dataX = [];
     const dataY = [];

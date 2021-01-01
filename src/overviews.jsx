@@ -2,9 +2,9 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-import './styles/regulondbGlobalStyle.css';
 import Main from './components/overview_main';
 import Graphic from './components/overview_graphic';
+import './styles/regulondbGlobalStyle.css';
 import './styles/overviewsStyles.css';
 
 const Overviews = () => {
